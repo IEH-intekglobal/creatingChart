@@ -6,8 +6,8 @@ import ReactFlow, {
     useEdgesState,
     useViewport,
     //addEdge,
-} from '../../../../react-flow/packages/reactflow/dist/esm/index';
-import '../../../../react-flow/packages/reactflow/dist/style.css'
+} from 'reactflow';
+import 'reactflow/dist/style.css'
 import { PlusNode } from './nodes/PlusNode/PlusNode';
 import { StartEndNode } from './nodes/StartEndNode';
 import { FigureNode } from './nodes/FigureNode';

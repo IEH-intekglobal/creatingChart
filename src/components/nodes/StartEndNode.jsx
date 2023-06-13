@@ -1,4 +1,4 @@
-import { Handle, Position } from "../../../../../react-flow/packages/reactflow/dist/esm"
+import { Handle, Position } from "reactflow"
 
 export function StartEndNode({data}){
     const {label} = data

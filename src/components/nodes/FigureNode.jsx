@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { Handle, Position, useReactFlow } from "../../../../../react-flow/packages/reactflow/dist/esm"
+import { Handle, Position, useReactFlow } from "reactflow"
 
 function FigureNodeContainer({selected, children, shape}){
     switch (shape){

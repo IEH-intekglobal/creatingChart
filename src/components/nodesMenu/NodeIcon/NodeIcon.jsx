@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { AiOutlineStar } from 'react-icons/ai';
-import { useReactFlow, useViewport } from '../../../../../../react-flow/packages/reactflow/dist/esm';
+import { useReactFlow, useViewport } from 'reactflow';
 import {BsCircle,BsDiamond,BsSquare, BsTriangle} from 'react-icons/bs'
 import {MdOutlineRectangle} from 'react-icons/md'
 import {TbTriangleInverted} from 'react-icons/tb'

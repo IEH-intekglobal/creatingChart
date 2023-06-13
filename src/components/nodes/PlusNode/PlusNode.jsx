@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { setActivePlusNodeId } from '../../../stateManagement/slices/reactFlow'
 import ReactModal from 'react-modal';
-import { Handle, Position,  useViewport } from '../../../../../../react-flow/packages/reactflow/dist/esm';
+import { Handle, Position,  useViewport } from 'reactflow';
 import NodesMenu from '../../nodesMenu/NodesMenu';
 import './styles.css'
 
